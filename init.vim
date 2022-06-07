@@ -5,3 +5,11 @@ set showcmd
 set encoding=utf-8
 set showmatch
 set relativenumber
+
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'sainnhe/gruvbox-material'
+
+
+call plug#end()
